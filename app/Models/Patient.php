@@ -20,4 +20,9 @@ class Patient extends Model
         'email',
         'address',
     ];
+
+    protected $hidden = [
+        'created_at',
+        'updated_at'
+    ];
 }
